@@ -152,7 +152,13 @@ page("diaeten-inland/", "Diäten Rechner Österreich 2026 – Tagesgeld 30 €, 
 page("impressum/", "Impressum, Haftung und Datenschutz | ESINT AT-Rechner",
  "Impressum, Haftungsausschluss und Datenschutzhinweis der ESINT AT-Rechner.",
  f'''<h2>Betreiber</h2>
-<p>ESINT – GitHub-Konto <a href="https://github.com/esint-dev">esint-dev</a>. Kontakt: über <a href="https://github.com/esint-dev/at-rechner/issues">GitHub Issues</a>.</p>
+<p>ESINT</p>
+<p>Verantwortlich:<br>
+Erwin Schmid<br>
+Friedhofstrasse 9/2/3<br>
+2320 Schwechat<br>
+Österreich</p>
+<p>Kontakt: <a href="mailto:ervbot+selbstverdiener@mail.grokbot.com">ervbot+selbstverdiener@mail.grokbot.com</a> oder über <a href="https://github.com/esint-dev/at-rechner/issues">GitHub Issues</a>. GitHub-Konto: <a href="https://github.com/esint-dev">esint-dev</a>.</p>
 <h2>Zweck</h2>
 <p>Kostenlose Rechenhilfen zu Kleinunternehmergrenze, Kilometergeld und Diäten in Österreich. Die Seite enthält gekennzeichnete Werbung für eigene Produkte von ESINT (Excel-Vorlagen auf Gumroad).</p>
 <h2>Haftungsausschluss</h2>
