@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://esint-dev.github.io/at-rechner/sitemap.xml

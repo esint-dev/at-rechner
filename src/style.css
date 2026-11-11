@@ -1,0 +1,29 @@
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1b1f24;background:#f6f7f9}
+header{background:#0f2a44;color:#fff;padding:.75rem 1rem;display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;align-items:center}
+header a{color:#fff;text-decoration:none}
+.brand{font-weight:700;font-size:1.15rem;letter-spacing:.04em}.brand span{font-weight:400;opacity:.8}
+nav{display:flex;flex-wrap:wrap;gap:.25rem .9rem;font-size:.95rem}
+nav a[aria-current]{text-decoration:underline}
+main{max-width:46rem;margin:0 auto;padding:1rem}
+h1{font-size:1.6rem;line-height:1.25;margin:.75rem 0}
+h2{font-size:1.15rem;margin-top:1.75rem}
+.lead{font-size:1.05rem}
+a{color:#0b5cad}
+.calc{background:#fff;border:1px solid #d5dae1;border-radius:10px;padding:1rem;display:grid;gap:.85rem;margin:1rem 0}
+.calc label{display:grid;gap:.3rem;font-weight:600}
+.calc input,.calc select{font:inherit;padding:.55rem .6rem;border:1px solid #b9c1cc;border-radius:6px;width:100%;background:#fff}
+output{display:block;background:#eef5ee;border-left:4px solid #2e7d32;padding:.75rem;border-radius:6px;font-weight:500}
+output.warn{background:#fff6e5;border-color:#c77700}
+output.bad{background:#fdecec;border-color:#c62828}
+.cards{list-style:none;padding:0;display:grid;gap:.75rem}
+.cards a{display:block;background:#fff;border:1px solid #d5dae1;border-radius:10px;padding:1rem;text-decoration:none;color:inherit}
+.cards a:hover{border-color:#0b5cad}.cards span{display:block;color:#4a5560;font-size:.95rem}
+.src{font-size:.92rem;padding-left:1.1rem}
+.ad{margin:2rem 0 1rem;border:2px dashed #8a96a3;border-radius:10px;padding:.9rem;background:#fff}
+.adlabel{margin:0 0 .4rem;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#5b6773}
+.btn{display:inline-block;background:#0b5cad;color:#fff;padding:.5rem .8rem;border-radius:6px;text-decoration:none;margin:.2rem .3rem .2rem 0}
+.btn.alt{background:#fff;color:#0b5cad;border:1px solid #0b5cad}
+.small{font-size:.85rem;color:#5b6773}
+.disc{font-size:.88rem;background:#f0f2f5;border-radius:8px;padding:.75rem;margin-top:1.5rem}
+footer{text-align:center;font-size:.85rem;color:#5b6773;padding:1rem}

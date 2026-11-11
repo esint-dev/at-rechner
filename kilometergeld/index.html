@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de-AT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kilometergeld Rechner Österreich 2026 – Pkw 0,50 €, Fahrrad 0,25 € | ESINT</title>
+<meta name="description" content="Kilometergeld Österreich 2026 berechnen: Pkw 0,50 €/km, Motorrad und Fahrrad 0,25 €/km, Zuschlag 0,15 €/km je Mitfahrer. Mit Jahresgrenzen und amtlichen Quellen.">
+<link rel="canonical" href="https://esint-dev.github.io/at-rechner/kilometergeld/">
+<meta property="og:title" content="Kilometergeld Rechner Österreich 2026 – Pkw 0,50 €, Fahrrad 0,25 € | ESINT">
+<meta property="og:description" content="Kilometergeld Österreich 2026 berechnen: Pkw 0,50 €/km, Motorrad und Fahrrad 0,25 €/km, Zuschlag 0,15 €/km je Mitfahrer. Mit Jahresgrenzen und amtlichen Quellen.">
+<meta property="og:url" content="https://esint-dev.github.io/at-rechner/kilometergeld/">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="https://esint-dev.github.io/at-rechner/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://esint-dev.github.io/at-rechner/">ESINT <span>AT-Rechner</span></a><nav><a href="https://esint-dev.github.io/at-rechner/">Übersicht</a> <a href="https://esint-dev.github.io/at-rechner/kleinunternehmergrenze/">Kleinunternehmergrenze</a> <a href="https://esint-dev.github.io/at-rechner/kilometergeld/" aria-current=page>Kilometergeld</a> <a href="https://esint-dev.github.io/at-rechner/diaeten-inland/">Diäten Inland</a> <a href="https://esint-dev.github.io/at-rechner/impressum/">Impressum</a></nav></header>
+<main>
+<h1>Kilometergeld 2026 – Rechner</h1>
+<p class="lead">Amtliches Kilometergeld seit 1.7.2025 (auch 2026 gültig): <strong>Pkw 0,50 €</strong>, <strong>Motorrad/Motorfahrrad 0,25 €</strong>, <strong>Fahrrad 0,25 €</strong> je Kilometer, dazu <strong>0,15 €</strong> je Kilometer für jede Mitfahrerin/jeden Mitfahrer.</p>
+<form class="calc" id="km" onsubmit="return false">
+<label>Fahrzeug<select id="km_typ"><option value="pkw">Pkw (0,50 €/km)</option><option value="moto">Motorrad / Motorfahrrad (0,25 €/km)</option><option value="rad">Fahrrad (0,25 €/km)</option></select></label>
+<label>Gefahrene Kilometer<input type="number" inputmode="decimal" min="0" step="1" id="km_km" value="100"></label>
+<label>Anzahl Mitfahrende (nur Pkw)<input type="number" inputmode="numeric" min="0" step="1" id="km_mit" value="0"></label>
+<output id="km_out" aria-live="polite"></output>
+</form>
+<h2>Grenzen</h2>
+<ul>
+<li>Kraftfahrzeuge (Pkw, Motorrad): höchstens 30.000 km pro Kalenderjahr.</li>
+<li>Fahrrad: höchstens 3.000 km pro Kalenderjahr (als Werbungskosten bei Arbeitnehmern).</li>
+</ul>
+<p>Mit dem Kilometergeld sind laut BMF u. a. Wertverlust, Treibstoff, Service, Versicherungen, Maut, Vignette und Parkgebühren abgegolten. Für Selbständige gelten eigene Regeln zur Nutzung des privaten Fahrzeugs im Betrieb – siehe USP.</p>
+<h2>Quellen</h2><ul class="src"><li><a href="https://www.bmf.gv.at/themen/steuern/kraftfahrzeuge/kilometergeld.html" rel="noopener">BMF – Kilometergeld</a> (abgerufen 11.11.2026)</li><li><a href="https://www.oesterreich.gv.at/de/themen/steuern_und_finanzen/unterstuetzungen_beihilfen_und_foerderungen/pendlerpauschale_und_kilometergeld/Seite.350300" rel="noopener">oesterreich.gv.at – Kilometergeld</a> (abgerufen 11.11.2026)</li><li><a href="https://www.usp.gv.at/themen/steuern-finanzen/steuerliche-gewinnermittlung/weitere-informationen-zur-steuerlichen-gewinnermittlung/betriebseinnahmen-und-ausgaben/reisekosten.html" rel="noopener">USP – Reisekosten (Selbständige)</a> (abgerufen 11.11.2026)</li></ul>
+<aside class="ad" aria-label="Werbung">
+<p class="adlabel">Werbung (eigenes Produkt von ESINT)</p>
+<p>Excel für Kleinunternehmer in Österreich: Einnahmen-Ausgaben-Rechnung, Prüfung der 55.000-€-Grenze, SVS- und Steuer-Rücklage, Rechnungsvorlage.</p>
+<p><a class="btn" href="https://gumroad.com/l/hipixo" rel="sponsored noopener">Gratis-Lite herunterladen</a>
+<a class="btn alt" href="https://gumroad.com/l/qxclfr" rel="sponsored noopener">Vollversion (19 €) ansehen</a></p>
+<p class="small">Verkauf über Gumroad. Rechenhilfe, keine Steuerberatung.</p>
+</aside>
+<p class="disc"><strong>Unverbindlich:</strong> Diese Rechner sind eine einfache Rechenhilfe. Sie sind keine Steuer- oder Rechtsberatung und ersetzen keine Auskunft von Finanzamt, SVS, WKO oder Steuerberatung. Angaben ohne Gewähr, Stand Mi, 11.11.2026. Maßgeblich sind die verlinkten amtlichen Quellen. <a href="https://esint-dev.github.io/at-rechner/impressum/">Impressum &amp; Haftung</a></p>
+</main>
+<footer><p>© 2026 ESINT · <a href="https://github.com/esint-dev/at-rechner">Quellcode auf GitHub</a> · <a href="https://esint-dev.github.io/at-rechner/impressum/">Impressum, Haftung, Datenschutz</a> · Stand Mi, 11.11.2026</p></footer>
+<script src="https://esint-dev.github.io/at-rechner/app.js" defer></script>
+</body>
+</html>

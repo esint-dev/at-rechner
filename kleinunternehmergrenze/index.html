@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de-AT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kleinunternehmergrenze Österreich 2026 Rechner – 55.000 € und Toleranz 60.500 € | ESINT</title>
+<meta name="description" content="Rechner zur Kleinunternehmerregelung in Österreich 2026: Umsatzgrenze 55.000 € brutto, 10-%-Toleranz bis 60.500 €. Prüfe, ob du noch ohne Umsatzsteuer verrechnen darfst.">
+<link rel="canonical" href="https://esint-dev.github.io/at-rechner/kleinunternehmergrenze/">
+<meta property="og:title" content="Kleinunternehmergrenze Österreich 2026 Rechner – 55.000 € und Toleranz 60.500 € | ESINT">
+<meta property="og:description" content="Rechner zur Kleinunternehmerregelung in Österreich 2026: Umsatzgrenze 55.000 € brutto, 10-%-Toleranz bis 60.500 €. Prüfe, ob du noch ohne Umsatzsteuer verrechnen darfst.">
+<meta property="og:url" content="https://esint-dev.github.io/at-rechner/kleinunternehmergrenze/">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="https://esint-dev.github.io/at-rechner/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://esint-dev.github.io/at-rechner/">ESINT <span>AT-Rechner</span></a><nav><a href="https://esint-dev.github.io/at-rechner/">Übersicht</a> <a href="https://esint-dev.github.io/at-rechner/kleinunternehmergrenze/" aria-current=page>Kleinunternehmergrenze</a> <a href="https://esint-dev.github.io/at-rechner/kilometergeld/">Kilometergeld</a> <a href="https://esint-dev.github.io/at-rechner/diaeten-inland/">Diäten Inland</a> <a href="https://esint-dev.github.io/at-rechner/impressum/">Impressum</a></nav></header>
+<main>
+<h1>Kleinunternehmergrenze 2026 – Rechner</h1>
+<p class="lead">Seit 1.1.2025 gilt in Österreich eine Umsatzgrenze von <strong>55.000 € brutto</strong> pro Jahr. Wird sie um nicht mehr als 10 % überschritten (also bis <strong>60.500 €</strong>), dürfen bis zum Jahresende weiter Rechnungen ohne Umsatzsteuer ausgestellt werden; im Folgejahr entfällt die Befreiung. Darüber sind alle weiteren Umsätze ab dem Überschreiten steuerpflichtig.</p>
+<form class="calc" id="ku" onsubmit="return false">
+<label>Umsatz im Vorjahr (brutto, €)<input type="number" inputmode="decimal" min="0" step="0.01" id="ku_vj" value="0"></label>
+<label>Umsatz heuer bisher (brutto, €)<input type="number" inputmode="decimal" min="0" step="0.01" id="ku_bisher" value="0"></label>
+<label>Geplanter neuer Umsatz / nächste Rechnung (brutto, €)<input type="number" inputmode="decimal" min="0" step="0.01" id="ku_neu" value="0"></label>
+<output id="ku_out" aria-live="polite"></output>
+</form>
+<h2>So rechnet der Rechner</h2>
+<ul>
+<li>Vorjahr über 55.000 € → heuer keine Kleinunternehmerbefreiung (die Grenze darf weder im Vorjahr noch im laufenden Jahr überschritten sein).</li>
+<li>Heuer gesamt bis 55.000 € → Befreiung bleibt.</li>
+<li>Heuer gesamt über 55.000 € bis 60.500 € → Befreiung bis Jahresende, im Folgejahr nicht mehr.</li>
+<li>Heuer gesamt über 60.500 € → ab dem Umsatz, mit dem die Grenze überschritten wird, ist Umsatzsteuer zu verrechnen.</li>
+</ul>
+<p>Nicht in die Grenze eingerechnet werden laut USP z. B. Hilfsgeschäfte (etwa Verkauf von Anlagegütern), bestimmte steuerfreie Umsätze und Reverse-Charge-Umsätze. Der Rechner berücksichtigt das nicht automatisch – gib nur die zählenden Umsätze ein. Sonderfälle (z. B. EU-Kleinunternehmerbefreiung, Option zur Steuerpflicht) deckt er nicht ab.</p>
+<h2>Quellen</h2><ul class="src"><li><a href="https://www.usp.gv.at/aktuelles/newsliste/kleinunternehmerregelung-ab-2025.html" rel="noopener">USP – Kleinunternehmerregelung ab 2025</a> (abgerufen 11.11.2026)</li><li><a href="https://www.wko.at/steuern/kleinunternehmerregelung-umsatzsteuer" rel="noopener">WKO – Kleinunternehmerregelung (Umsatzsteuer)</a> (abgerufen 11.11.2026)</li></ul>
+<aside class="ad" aria-label="Werbung">
+<p class="adlabel">Werbung (eigenes Produkt von ESINT)</p>
+<p>Excel für Kleinunternehmer in Österreich: Einnahmen-Ausgaben-Rechnung, Prüfung der 55.000-€-Grenze, SVS- und Steuer-Rücklage, Rechnungsvorlage.</p>
+<p><a class="btn" href="https://gumroad.com/l/hipixo" rel="sponsored noopener">Gratis-Lite herunterladen</a>
+<a class="btn alt" href="https://gumroad.com/l/qxclfr" rel="sponsored noopener">Vollversion (19 €) ansehen</a></p>
+<p class="small">Verkauf über Gumroad. Rechenhilfe, keine Steuerberatung.</p>
+</aside>
+<p class="disc"><strong>Unverbindlich:</strong> Diese Rechner sind eine einfache Rechenhilfe. Sie sind keine Steuer- oder Rechtsberatung und ersetzen keine Auskunft von Finanzamt, SVS, WKO oder Steuerberatung. Angaben ohne Gewähr, Stand Mi, 11.11.2026. Maßgeblich sind die verlinkten amtlichen Quellen. <a href="https://esint-dev.github.io/at-rechner/impressum/">Impressum &amp; Haftung</a></p>
+</main>
+<footer><p>© 2026 ESINT · <a href="https://github.com/esint-dev/at-rechner">Quellcode auf GitHub</a> · <a href="https://esint-dev.github.io/at-rechner/impressum/">Impressum, Haftung, Datenschutz</a> · Stand Mi, 11.11.2026</p></footer>
+<script src="https://esint-dev.github.io/at-rechner/app.js" defer></script>
+</body>
+</html>
